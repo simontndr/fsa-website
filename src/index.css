@@ -1,0 +1,42 @@
+/*global styles*/
+
+*,*::before,*::after{
+  color: #FAF9F6;
+  font-family:'Montserrat',sans-serif;
+  font-size:18px;
+}
+
+@media screen and (max-width:850px) {
+  *,*::before,*::after {
+    font-size:16px;
+  }
+}
+
+h1,h2,h3,h4{
+  text-transform:uppercase;
+  font-family:'Archivo Black',sans-serif;
+  color:#FF5851;
+  text-shadow: 7px 3px #F3C130;
+}
+
+h1{
+  font-size:12vw;
+}
+
+h2{
+  font-size:6vw;
+}
+
+small{
+  font-size: 10px;
+  margin-left: 3px;
+}
+
+/*adding bottom padding to account for footer*/
+body{
+  min-height:100vh;
+  position:relative;
+  background: rgba(243,199,242,1) radial-gradient(circle, rgba(243,199,242,1) 0%, #ffacd8 50%, rgba(252,131,246,1) 85%);
+  background-size: contain;
+  background-attachment:fixed;
+}

@@ -1,0 +1,228 @@
+/*app styles*/
+
+/*reference only, not an actual element*/
+#color-palette{
+  color:#FF5851;
+  color:#F3C130;
+  color: #414a6b;
+  color: #1c1b20;
+  color: #FAF9F6;
+}
+
+/*navbar styles*/
+.navbar{
+  padding: 0.5em 1em;
+}
+
+.navbar-custom .navbar-brand, .navbar-custom .nav-link{
+  color:#FAF9F6;
+}
+
+.navbar-nav{
+  margin-left:auto;
+}
+
+.navbar-toggler{
+  border:none;
+}
+
+/*hero styles*/
+#hero-section{
+  /*
+  background-image:url('./src/images/uogfsa-home-bg.png');
+  background-size: cover;
+  */
+  display:flex;
+  flex-direction:column;
+  justify-content:center;
+  text-align:center;
+  min-height:120vh;
+  padding-bottom: 8em;
+  margin-bottom: 25vh;
+}
+
+#welcome-message h1{
+  text-shadow: 7px 5px #F3C130;
+}
+
+#welcome-message{
+  margin: 1em 1em 2em;
+}
+
+
+#welcome-message span{
+  font-family:'Archivo Black',sans-serif;
+  color: #FF5851;
+  font-size: 3vw;
+}
+
+
+@media screen and (max-width:450px){
+  #welcome-message h1{
+    font-size:23vw;
+  }
+
+  #welcome-message span{
+    font-size: 5vw;
+  }  
+}
+
+/*about styles*/
+
+#about-section{
+  display:flex;
+  flex-direction:column;
+  justify-content:center;
+  min-height:110vh;
+  padding: 5em 1em 11em;
+  text-align:center;
+  margin-bottom: 25vh;
+}
+
+#about-article{
+  margin-top:1em;
+  display:flex;
+  flex-wrap:wrap;
+  justify-content: center;
+}
+
+#about-article section{
+  text-align:left;
+  max-width:30vw;
+  margin: 2em;
+}
+
+@media screen and (max-width: 1200px){
+  #about-article section{
+    max-width:80vw;
+  }
+}
+
+#about-section img{
+  margin: 2em;
+}
+
+/*photo styles*/
+figcaption{
+  margin:1em;
+}
+
+/*team styles*/
+#team-section{
+  display:flex;
+  flex-direction:column;
+  min-height:110vh;
+  padding: 1em 1em 11em;
+  text-align:center;
+  margin-bottom: 25vh;
+}
+
+/*why join styles*/
+#why-join-section{
+  display:flex;
+  flex-direction:column;
+  align-items:center;
+  min-height:110vh;
+  padding: 5em 1em 11em;
+  text-align:center;
+  margin-bottom: 30vh;
+}
+
+#why-join-article{
+  text-align:left;
+  max-width:45vw;
+  margin:2em;
+}
+
+@media screen and (max-width: 1200px){
+  #why-join-article{
+    max-width:80vw;
+  }
+}
+
+
+
+
+/*footer styles*/
+.footer{
+  position:absolute;
+  bottom:auto;
+  width:100%;
+}
+
+.footer h2{
+  color:#FAF9F6;
+  font-size:20px;
+  text-align:center;
+  text-shadow:none;
+}
+
+.contact-info{
+  display:flex;
+  flex-wrap:wrap;
+  justify-content:center;
+  list-style-type: none;
+}
+
+.contact-info-items{
+  margin: 0.5em 1em;
+}
+
+
+.contact-info-items img{
+  margin: 0 0.25em;
+}
+
+/*Card Styles, will be constant across all devices*/
+.card{
+  width:280px;
+  background:rgba(243,199,242,1);
+  border:none;
+  margin: 0 10px;
+}
+
+.card-title{
+  font-size:17px;
+}
+
+.card-subtitle,.card-text{
+  font-size:15px;
+}
+
+
+.carousel-control-prev, .carousel-control-next {
+  width:auto;
+}
+
+.carousel-control-prev *, .carousel-control-next *{
+  top:30px;
+}
+
+
+/*Card Carousel Styles*/
+
+#carouselAutoplaying{
+  margin: 2em auto;
+  width:950px;
+  height: 700px;
+}
+
+.cards-wrapper{
+  display:flex;
+  justify-content:center;
+  text-align: left;
+}
+
+/*Single Card Carousel Styles*/
+
+#singleCarouselAutoplaying{
+  margin: 2em auto;
+  width:340px;
+  height: 700px;
+}
+
+.single-cards-wrapper{
+  display:flex;
+  justify-content:center;
+  text-align:left;
+}
