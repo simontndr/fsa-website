@@ -45,7 +45,7 @@ function App() {
   const adelInfo : CardProps = {
     imageUrl: './assets/images/adel.jpg',
     imageAlt: 'photo of Addey Caringal',
-    cardTitle: 'Dan Caringal',
+    cardTitle: 'Addey Caringal',
     cardSubtitle: 'Events Coordinator',
     cardText: "Hi! I’m a 2nd year international student majoring in Psychology. Three words to describe myself would be curious, adventurous, and outgoing! I love hanging out with people, but also enjoy time alone in nature from time to time. I joined UGFSA to organize fun and unforgettable events that will continue to make Filipino culture, hospitality, and love known and alive to everyone."
   }
