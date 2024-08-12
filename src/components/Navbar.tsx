@@ -9,7 +9,7 @@ const Navbar: React.FC = () => {
     
   return (
     <nav className="navbar navbar-expand-sm navbar-dark navbar-custom">
-      <a className="navbar-brand" href="#home-main"><img src='./src/images/FSALogo.png' width='60' alt="LOGO"/></a>
+      <a className="navbar-brand" href="#home-main"><img src='./assets/images/UGFSA-logo.png' width='60' alt="UGFSA LOGO"/></a>
 
       <button
         className="navbar-toggler"
